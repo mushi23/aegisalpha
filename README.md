@@ -142,9 +142,50 @@ POST /api/predict – feeds historical data to LSTM/XGBoost
   "volatility": 0.0034
 }
 
-✏️ To Do
+📁 Folder Structure
 
+The repository is organized as follows:
 
+- `app/` – Laravel backend (controllers, models, services)
+- `ml-models/` – Python ML engine (notebooks, scripts, models, data processing)
+- `public/` – Public assets for the web frontend
+- `resources/` – Vue/TS frontend components and layouts
+- `config/` – Laravel configuration files
+- `database/` – Migrations, factories, and seeders
+- `routes/` – Laravel route definitions
+- `tests/` – Feature and unit tests (PHP)
+- `requirements.txt`, `environment.yml` – Python dependencies
+- `package.json` – Node dependencies for frontend
+- `README.md` – Project documentation
+
+📝 To Do (Expanded)
+
+- [x] Laravel backend setup
+- [x] Twelve Data API integration
+- [x] Basic ML model integration (LSTM, XGBoost)
+- [ ] Regime detection analytics (HMM, GMM)
+- [ ] Backtesting engine for strategy simulation
+- [ ] Frontend dashboard (Vue/TS)
+- [ ] Dockerization and CI/CD
+- [ ] User authentication and API key management
+- [ ] Enhanced error handling and logging
+- [ ] Automated tests for ML and API endpoints
+- [ ] Documentation for contributing and usage
+- [ ] Example Jupyter notebooks for research
+- [ ] Data pipeline for new market data
+
+💡 Usage
+
+- For research: Use the provided Jupyter notebooks and scripts in `ml-models/` to experiment with new models, features, and strategies.
+- For practical trading: Integrate the API endpoints with your trading infrastructure. **Note:** This project is for research and educational purposes. Use with caution in live trading environments.
+
+🤝 Contributing
+
+Contributions are welcome! Please open issues or pull requests for bug fixes, new features, or documentation improvements. See the folder structure above to find where your changes might fit best.
+
+⚠️ Disclaimer (Expanded)
+
+This repository is for educational and research purposes only. No part of this codebase constitutes financial advice. Trading financial instruments involves significant risk. The authors and contributors are not responsible for any financial losses incurred through the use of this software.
 
 👨‍💼 Author
 
