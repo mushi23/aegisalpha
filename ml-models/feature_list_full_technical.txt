@@ -1,0 +1,70 @@
+# Full Technical + Regime Features (No bull_prob_hmm)
+# Technical Indicators
+sma_20
+ema_20
+rsi
+macd
+macd_signal
+bb_upper
+bb_lower
+bb_mid
+support
+resistance
+
+# Regime Features (excluding bull_prob_hmm)
+regime_hmm
+regime_gmm
+bull_prob_gmm
+regime_hmm_vol
+regime_gmm_vol
+regime_agreement
+
+# Enhanced Technical Features (if available)
+bb_width
+rsi_ma
+macd_histogram
+price_position
+volatility_5
+volatility_10
+volatility_20
+momentum_5
+momentum_10
+momentum_20
+
+# Time-based Features
+hour
+day_of_week
+month
+quarter
+
+# Market Microstructure (if available)
+volume_ma
+volume_ratio
+price_range
+gap_up
+gap_down
+
+# Moving Average Features
+sma_5
+sma_10
+sma_50
+ema_5
+ema_10
+ema_50
+ma_cross_5_20
+ma_cross_10_50
+
+# Bollinger Band Features
+bb_position
+bb_squeeze
+bb_expansion
+
+# RSI Features
+rsi_overbought
+rsi_oversold
+rsi_trend
+
+# MACD Features
+macd_cross
+macd_divergence
+macd_trend 

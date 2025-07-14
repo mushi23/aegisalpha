@@ -1,0 +1,16 @@
+{
+  "optimal_threshold": 0.05,
+  "feature_names": [
+    "regime_hmm",
+    "regime_gmm",
+    "bull_prob_gmm",
+    "macd",
+    "macd_signal",
+    "bb_upper",
+    "bb_lower"
+  ],
+  "model_name": "LightGBM",
+  "f1_score": 0.6637262763966854,
+  "precision": 0.4966993398679736,
+  "recall": 1.0
+}

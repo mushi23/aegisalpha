@@ -1,0 +1,79 @@
+sections:
+  - name: Meta Modeling
+    tasks:
+      - name: Regime-conditioned volatility and agreement features
+        status: done
+        notes: "Completed HMM and GMM regime detection, generated regime CSVs for multiple currency pairs"
+      - name: LightGBM alternative
+        status: done
+        notes: "Implemented LightGBM with hyperparameter tuning, achieved 74% F1 score vs 22% baseline"
+      - name: SHAP feature interpretation
+        status: done
+        notes: "Comprehensive SHAP analysis completed for all models, feature importance rankings generated"
+      - name: Feature engineering and selection
+        status: done
+        notes: "Enhanced feature engineering, removed bull_prob_hmm dominance, full technical feature set"
+      - name: Model comparison and backtesting
+        status: done
+        notes: "Head-to-head backtests, ensemble methods, threshold optimization completed"
+  - name: Enhanced Backtesting & Validation
+    tasks:
+      - name: Realistic backtesting with risk management
+        status: done
+        notes: "Implemented realistic backtesting with slippage, position sizing, and transaction costs"
+      - name: Comprehensive stress testing
+        status: done
+        notes: "Stress tested across time periods, market conditions, parameters, and currency pairs"
+      - name: Signal amplification analysis
+        status: done
+        notes: "Tested 1x-30x amplification, confirmed 1x provides optimal risk-adjusted returns"
+      - name: Strategy reliability assessment
+        status: done
+        notes: "Validated strategy robustness with 0.83 Sharpe ratio and 78% win rate"
+  - name: Data Ingestion
+    tasks:
+      - name: Live OANDA API ingestion
+        status: not_started
+        notes: "Set up real-time data feed for live trading"
+  - name: Portfolio/Validation
+    tasks:
+      - name: Markowitz optimization
+        status: not_started 
+        notes: "Implement portfolio optimization across currency pairs"
+      - name: Advanced backtesting with tuned model
+        status: done
+        notes: "Enhanced backtesting completed with 0.83 Sharpe ratio, 78% win rate, low drawdown"
+      - name: Risk management and position sizing
+        status: done
+        notes: "Implemented position sizing, daily trade limits, confidence thresholds"
+      - name: Live trading implementation
+        status: not_started
+        notes: "Deploy strategy for paper trading or live trading with proper risk controls"
+  - name: Model Enhancement
+    tasks:
+      - name: TreeSHAP clustering analysis
+        status: not_started
+        notes: "Group SHAP explanations to uncover distinct reasoning modes"
+      - name: Regime-specific model training
+        status: not_started
+        notes: "Train separate models for different market regimes"
+      - name: Ensemble optimization
+        status: not_started
+        notes: "Further optimize ensemble strategies based on backtest results" 
+      - name: Out-of-sample validation
+        status: not_started
+        notes: "Test strategy on completely unseen data to validate generalization"
+      - name: Market regime detection integration
+        status: not_started
+        notes: "Integrate regime detection into live trading decisions"
+  - name: Performance Monitoring
+    tasks:
+      - name: Real-time performance tracking
+        status: not_started
+        notes: "Monitor live trading performance, track key metrics"
+      - name: Strategy adaptation mechanisms
+        status: not_started
+        notes: "Implement mechanisms to adapt strategy based on changing market conditions"
+      - name: Performance reporting dashboard
+        status: not_started
+        notes: "Create dashboard for tracking P&L, Sharpe ratio, drawdown, etc." 

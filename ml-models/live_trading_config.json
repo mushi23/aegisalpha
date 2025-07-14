@@ -1,0 +1,57 @@
+{
+  "trading": {
+    "initial_capital": 100000,
+    "max_position_size": 0.1,
+    "max_daily_trades": 5,
+    "slippage": 0.002,
+    "transaction_cost": 0.001,
+    "confidence_threshold": 0.002,
+    "stop_loss": 0.02,
+    "take_profit": 0.03
+  },
+  "models": {
+    "regression_model": "models_future_return_5_regression/xgboost_future_return_5_regression.pkl",
+    "binary_model": "models_target_binary_classification/xgboost_target_binary_classification.pkl",
+    "scaler": "feature_scaler.pkl"
+  },
+  "features": [
+    "sma_20",
+    "ema_20", 
+    "rsi",
+    "macd",
+    "macd_signal",
+    "bb_upper",
+    "bb_lower",
+    "bb_mid",
+    "support",
+    "resistance"
+  ],
+  "currency_pairs": [
+    "AUDUSD",
+    "EURUSD", 
+    "GBPUSD",
+    "NZDUSD",
+    "USDJPY"
+  ],
+  "risk_management": {
+    "max_portfolio_risk": 0.02,
+    "max_correlation": 0.7,
+    "position_sizing_method": "kelly",
+    "rebalance_frequency": "daily"
+  },
+  "monitoring": {
+    "update_interval": 60,
+    "performance_check_interval": 300,
+    "save_data_interval": 3600,
+    "alert_thresholds": {
+      "max_drawdown": 0.05,
+      "daily_loss": 0.02,
+      "sharpe_ratio": 0.5
+    }
+  },
+  "data_source": {
+    "type": "simulation",
+    "file_path": "all_currencies_with_indicators_updated.csv",
+    "real_time": false
+  }
+} 

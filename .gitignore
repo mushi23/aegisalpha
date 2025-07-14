@@ -1,24 +1,192 @@
-/.phpunit.cache
-/bootstrap/ssr
-/node_modules
-/public/build
-/public/hot
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+.target/
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# poetry
+poetry.lock
+
+# mypy
+.mypy_cache/
+.dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# Model/data/binary files
+*.csv
+*.npy
+*.pkl
+*.zip
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.pdf
+*.xlsx
+*.xls
+*.h5
+*.keras
+*.bin
+*.tar
+*.gz
+*.bz2
+*.7z
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.db
+*.sqlite
+*.rdb
+*.bak
+*.tmp
+*.log
+
+# Folders to ignore
+ml-models/processed/
+ml-models/models/
+ml-models/portfolio_results/
+ml-models/portfolio_results_monthly/
+ml-models/portfolio_results_weekly/
+ml-models/threshold_results/
+ml-models/threshold_results_high/
+GBPUSD/
+audusd-stock-market-kraken/
+eurusd_1min/
+eurusd_h4/
+gbpusd_data/
+
+# Laravel
+/vendor/
+/node_modules/
 /public/storage
 /storage/*.key
-/storage/pail
-/vendor
 .env
-.env.backup
-.env.production
-.phpactor.json
+.env.*
 .phpunit.result.cache
 Homestead.json
 Homestead.yaml
 npm-debug.log
-yarn-error.log
-/auth.json
-/.fleet
-/.idea
-/.nova
-/.vscode
-/.zed
+
+# Composer
+composer.lock
+
+# Ignore backup and temp files
+*~
+*.swp
+*.swo
+*.tmp
+
+# Allow Jupyter Notebooks and code
+!*.ipynb
+!*.py
+!*.php
+!*.js
+!*.ts
+!*.vue
+!*.json
+!*.md
+!*.yml
+!*.yaml
+!*.css
+!*.blade.php
